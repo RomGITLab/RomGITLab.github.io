@@ -86,7 +86,9 @@ a {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
+.Linkexp a{
+  color: #424242;
+}
 a:hover {
   color: #FF9800;
   text-decoration: none;
@@ -343,8 +345,8 @@ button:hover, input[type="button"]:hover, input[type="submit"]:hover {
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  background-color: #fff;
-  color: #212121;
+  background-color: #2196F3;
+  color: #fff;
   box-shadow: 0 1px 1px rgba(0,0,0,0.1), 0 2px 4px rgba(0,0,0,0.3);
 }
 
@@ -1086,35 +1088,35 @@ body > footer .copyrights {
 
 /*Skill 1*/
 .skill-percentage.skill-1 {
-  width: 88%;
+  width: 30%;
 }
 /*Skill 2*/
 .skill-percentage.skill-2 {
-  width: 75%;
+  width: 40%;
 }
 /*Skill 3*/
 .skill-percentage.skill-3 {
-  width: 60%;
+  width: 50%;
 }
 /*Skill 4*/
 .skill-percentage.skill-4 {
-  width: 95%;
+  width: 60%;
 }
 /*Skill 5*/
 .skill-percentage.skill-5 {
-  width: 75%;
+  width: 70%;
 }
 /*Skill 6*/
 .skill-percentage.skill-6 {
-  width: 92%;
+  width: 80%;
 }
 /*Skill 7*/
 .skill-percentage.skill-7 {
-  width: 60%;
+  width: 90%;
 }
 /*Skill 8*/
 .skill-percentage.skill-8 {
-  width: 77%;
+  width: 100%;
 }
 /* Skills */
 
@@ -1162,7 +1164,7 @@ body > footer .copyrights {
 
 .service-block img {
   max-width: 100px;
-  height: 64px;
+  /*height: 64px;*/
   margin: 28px 0;
 }
 
@@ -1203,7 +1205,7 @@ body > footer .copyrights {
 .client-block {
   text-align: center;
   padding: 5px 0;
-  opacity: 0.4;
+  opacity: 0.7;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -1216,7 +1218,8 @@ body > footer .copyrights {
 }
 
 .client-block img {
-  max-width: 80px;
+  max-width: 100px;
+  height:80px
 }
 /* /Clients */
 
