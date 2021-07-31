@@ -666,12 +666,12 @@ body > footer .copyrights {
 .site-main-menu {
   display: block;
   padding: 0;
-  margin: 0;
+  margin: 10px;
+  float:right;
 }
 
 .site-main-menu li {
   display: inline-block;
-  float: left;
   position: relative;
   padding: 0;
   text-align: center;
@@ -686,7 +686,7 @@ body > footer .copyrights {
 
 .site-main-menu li a,
 .site-main-menu li a:hover {
-  display: block;
+  display: inline;
   position: relative;
   padding: 8px 0;
   margin: 0 20px;
@@ -2437,13 +2437,14 @@ blockquote footer, blockquote small, blockquote .small {
   }
 
   .site-main-menu li {
-    display: block;
+    /*display: block;*/
+    display: inline;
     width: 100%;
     margin: 0;
   }
 
   .site-main-menu li:first-child {
-    margin-top: 25px;
+    /*margin-top: 25px;*/
   }
 
   .site-main-menu li a,
